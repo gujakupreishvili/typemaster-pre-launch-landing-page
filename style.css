@@ -1,0 +1,377 @@
+body{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.rect{
+  background-color: #F16718;
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 12PX;
+  padding-left: 3px;
+  padding-top: 3px;
+}
+.order-button{
+  width: 150px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #E8EFF2;
+  border: none;
+  color:#162542;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 700;
+}
+.order-button:hover{
+  background-color: #162542;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.first-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px;
+  margin-bottom: 70px;
+} 
+.text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  
+}
+.type-keybord{
+  color: #162542;
+  font-size: 48px;
+  font-weight: 900;
+  font-family: Barlow;
+  line-height: 48px;
+  width: 327px;
+  
+}
+.improve{
+  font-family:Barlow;
+  color: #7B8BAD;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 32px;
+  width: 327px;
+  margin-bottom: 32px;
+}
+.texts-section{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  margin-left: 25px;
+  margin-bottom: 70px;
+}
+.text-section-button{
+  background-color:  #F16718; 
+  border: none;
+  width: 150px;
+  height: 48px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Barlow;
+}
+.text-section-button:hover{
+  background-color: #FF9B62;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.release{
+  color: #7B8BAD;
+  font-size: 16px;
+  font-weight: 700;
+  font-family:Barlow ;
+}
+.keyboard-mobile{
+  position: absolute;
+  right: 0%;
+  border-radius: 29px;
+}
+.main-photos{
+  display: flex;
+  flex-direction: row;
+  margin-top: 710px;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.image-phone-mobile{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20pxss;
+  margin-left: -43px;
+  /* filter: sepia(0) saturate(2); */
+  filter: sepia(3) saturate(9);
+  
+}
+/* aq  unda  chavsva yviteli feri */
+.image-glass-mobile{
+  border-radius: 30px;
+}
+.photos-under-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mechanical-keybord{
+  font-family: Barlow;
+  color: #162542;
+  font-size: 32px;
+  font-weight: 900;
+  width: 255px;
+  margin-bottom: 25px;
+}
+.master-keybord{
+  color: #7B8BAD;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 500;
+  width: 327px;
+  line-height: 26px;
+  margin-bottom: 111px;
+}
+.section-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aicon-div{
+  width: 65px;
+  height: 65px;
+  border-radius: 16px;
+  background-color: #F16718;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.section-h3{
+  font-family: Barlow;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  color: #162542;
+  margin-bottom: 24px;
+}
+.p-section{
+  font-family: Barlow;
+  color: #7B8BAD;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  width: 327px;
+  margin-bottom: 65px;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-footer{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Barlow;
+  text-align: center;
+  color: #7B8BAD;
+  margin-bottom: 39px;
+}
+.keyboard-tablet{
+  display: none;
+}
+.image-phone-tablet{
+  display: none;
+}
+.image-glass-tablet{
+  display: none;
+}
+.image-glass-desktop{
+  display: none;
+}
+.image-phone-desktop{
+  display: none;
+}
+.keybord-desktop{
+  display: none;
+}
+@media screen  and (min-width:740px){
+  body{
+    overflow-x: hidden;
+  }
+  .keyboard-mobile{
+    display: none;
+  }
+  .keyboard-tablet{
+    display: block;
+    border-top-left-radius: 20px;
+    width: 588px;
+    border-bottom-left-radius: 20px;
+  }
+  .first-div{
+    margin: 40px;
+    margin-bottom: 131px;
+  }
+  .order-button{
+    width: 175px;
+    height: 58px;
+  }
+  .type-keybord{
+    width: 339px;
+  }
+  .text{
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .header-second-div{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .main-photos{
+    margin-top: 40px;
+    gap: 50px;
+  }
+  .image-glass-mobile{
+    display: none;
+  }
+  .image-phone-mobile{
+    display: none;
+  }
+  .image-phone-tablet{
+    display: block;
+    border-radius: 25px;
+    margin-left: 25px;
+    width: 450px;
+    height: 450px;
+    filter: sepia(3) saturate(9);
+  }
+  .image-glass-tablet{
+    display: block;
+    width: 580px;
+    height: 450px;
+    border-radius: 25px;
+    margin-right: 25px;
+  }
+  .photos-under-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 110px;
+  }
+  .master-keybord{
+    width: 400px;
+  }
+  .mechanical-keybord{
+    margin-top: -70px;
+  }
+  .section-main-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .section-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 11px;
+    justify-content: start;
+    align-items: start;
+  }
+  .section-h3{
+    width: 255px;
+  }
+  .p-section{
+    width: 281px;
+  }
+  .p-footer{
+    margin-bottom: 60px;
+  } 
+  .keybord-desktop{
+    display: none;
+  }
+  .image-glass-desktop{
+    display: none;
+  }
+  .image-phone-desktop{
+    display: none;
+  }
+}
+@media screen and (min-width:1024px) {
+  .keyboard-tablet{
+    display: none;
+  }
+  .keybord-desktop{
+    display: block;
+    height: 615px;
+    width: 860px;
+    margin-left: 160px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  .first-div{
+    margin-left: 165px;
+    margin-right: 165px;
+  }
+  .text{
+    margin-left: 165px;
+  }
+  .type-keybord{
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .image-glass-tablet{
+    display: none;
+  }
+  .image-phone-tablet{
+    display: none;
+  }
+  .image-glass-desktop{
+    display: block;
+    width: 400px;
+    height: 350px;
+    border-radius: 30px;
+  }
+  .image-phone-desktop{
+    display: block;
+    margin-left: 165px;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+    filter: sepia(3) saturate(9);
+    
+    /* filter: blur(color red); */
+  }
+  /* this is a div which connect two photos and one text */
+  .first-main-div{
+    display: flex;
+    flex-direction: row;
+  }
+  .photos-under-text{
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 170px;
+  }
+  .master-keybord{
+    width: 255px;
+  }
+  .p-section{
+    width: 255px;
+  }
+  .section-main-div{
+    margin-left: 100px;
+  }
+
+  
+}
