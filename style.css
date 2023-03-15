@@ -202,7 +202,7 @@ footer{
 .keybord-desktop{
   display: none;
 }
-@media screen  and (min-width:740px){
+@media  (min-width:740px){
   body{
     overflow-x: hidden;
   }
@@ -307,7 +307,7 @@ footer{
     display: none;
   }
 }
-@media screen and (min-width:1024px) {
+@media (min-width:1024px) {
   .keyboard-tablet{
     display: none;
   }
